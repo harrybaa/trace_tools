@@ -1,0 +1,8 @@
+encoded format:
+https://github.com/ysshao/LLVM-Tracer/issues/9
+
+
+opcode_function
+https://github.com/ysshao/ALADDIN/blob/master/common/opcode_func.h
+
+
