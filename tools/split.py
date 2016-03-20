@@ -19,12 +19,12 @@ _block_num = 0
 _blocks_per_file = 0
 
 
-print("Reading from source file...")
+print "Reading from source file..."
 res_file = open(DIR_PATH + RES_FILE, "r")
 lines_res = res_file.readlines()
 res_file.close()
 
-print("Organizing data sets...")
+print "Organizing data sets..."
 blocks = []
 tmp_block = []
 # store data in a structure form
@@ -39,10 +39,12 @@ for line_res in lines_res:
 
 _block_num = len(blocks)
 _blocks_per_file = math.ceil(_block_num / FILE_NUM)
+print "Number of trace block:", _block_num
+print "Number of blocks in a file:", _blocks_per_file
 
 for i in range(0, FILE_NUM):
   dst_file = DST_PREFIX + str(i).zfill(3) + DST_SUFFIX
-  print("Writing ", dst_file)
+  print "Writing ",dst_file
   # Prevent from out of array
   if i == FILE_NUM - 1:
     end = _block_num
@@ -56,4 +58,4 @@ for i in range(0, FILE_NUM):
         dst_file.write(line)
   dst_file.close()
 
-print("Job done.")
+print "Job done."
