@@ -1,0 +1,31 @@
+dvf_sum: 5355.19 dvf_num: 7000 dvf_ratio: 0.765027
+num_of_opcode(2):113840 is_processed:no
+num_of_opcode(8):110214 is_processed:yes
+num_of_opcode(9):108403 is_processed:yes
+num_of_opcode(11):1400 is_processed:yes
+num_of_opcode(13):109802 is_processed:yes
+num_of_opcode(16):2 is_processed:yes
+num_of_opcode(27):323646 is_processed:yes
+num_of_opcode(28):6009 is_processed:yes
+num_of_opcode(29):323639 is_processed:yes
+num_of_opcode(33):110210 is_processed:yes
+num_of_opcode(35):103215 is_processed:yes
+num_of_opcode(46):112022 is_processed:yes
+num_of_opcode(48):217629 is_processed:yes
+num_of_opcode(50):10 is_processed:no
+num_of_operands_relate_to_target_data:7000
+fm_ratio_sum_on_statement_tier:5316
+fm_ratio_sum_on_error_prop_tier:1176.19
+fm_ratio_sum_on_fault_injection_tier:5355.19
+num_of_phi_exception:1810
+num_of_bottom_hit:0
+
+opcode distribution on fault masking of target data:
+num_of_opcode(9):1400
+num_of_opcode(13):2800
+num_of_opcode(28):2800
+
+Number of the three fault masking types on statement level:
+num_of_value_overwriting_times:0
+num_of_logic_operation_times:0
+num_of_value_overshadowing_times:0
